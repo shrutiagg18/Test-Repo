@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-20T18:07:42 GMT" name="Default suite" finished-at="2022-01-20T18:08:19 GMT" duration-ms="37133">
+    <groups>
+    </groups>
+    <test started-at="2022-01-20T18:07:42 GMT" name="Default test" finished-at="2022-01-20T18:08:19 GMT" duration-ms="37133">
+      <class name="TestCases.SortingTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestCases.SortingTest@3d285d7e]" started-at="2022-01-20T18:07:42 GMT" name="initialize" finished-at="2022-01-20T18:07:49 GMT" duration-ms="7691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateSorting()[pri:0, instance:TestCases.SortingTest@3d285d7e]" started-at="2022-01-20T18:07:49 GMT" name="validateSorting" description="Validating Sorting Low to High &amp; High to Low" finished-at="2022-01-20T18:07:56 GMT" duration-ms="6791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSorting -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.SortingTest@3d285d7e]" started-at="2022-01-20T18:07:56 GMT" name="teardown" finished-at="2022-01-20T18:07:57 GMT" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestCases.SortingTest@3d285d7e]" started-at="2022-01-20T18:07:57 GMT" name="initialize" finished-at="2022-01-20T18:08:03 GMT" duration-ms="6333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validatedefaultsortoptions()[pri:1, instance:TestCases.SortingTest@3d285d7e]" started-at="2022-01-20T18:08:03 GMT" name="validatedefaultsortoptions" description="Validating default sorting option are present" finished-at="2022-01-20T18:08:07 GMT" duration-ms="3434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatedefaultsortoptions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.SortingTest@3d285d7e]" started-at="2022-01-20T18:08:07 GMT" name="teardown" finished-at="2022-01-20T18:08:08 GMT" duration-ms="874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestCases.SortingTest@3d285d7e]" started-at="2022-01-20T18:08:08 GMT" name="initialize" finished-at="2022-01-20T18:08:13 GMT" duration-ms="5394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validatesortoptionsAfterSearch()[pri:1, instance:TestCases.SortingTest@3d285d7e]" started-at="2022-01-20T18:08:13 GMT" name="validatesortoptionsAfterSearch" description="Validating sort option after search" finished-at="2022-01-20T18:08:18 GMT" duration-ms="4777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatesortoptionsAfterSearch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.SortingTest@3d285d7e]" started-at="2022-01-20T18:08:18 GMT" name="teardown" finished-at="2022-01-20T18:08:19 GMT" duration-ms="877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.SortingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
