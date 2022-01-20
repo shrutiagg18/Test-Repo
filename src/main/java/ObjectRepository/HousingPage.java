@@ -118,7 +118,8 @@ public class HousingPage
 				
 				for(int i = 1; i<=Total; i++) 
 				{
-					double Price = Double.parseDouble(driver.findElement(By.xpath("//*[@id=\"search-results\"]/li["+ i +"]/a/div[1]/div/div[1]/img//parent::div//parent::div//parent::div//parent::a//span")).getText().trim().substring(1));
+					//double Price = Double.parseDouble(driver.findElement(By.xpath("//*[@id=\"search-results\"]/li["+ i +"]/a/div[1]/div/div[1]/img//parent::div//parent::div//parent::div//parent::a//span")).getText().trim().substring(1));
+					double Price = Double.parseDouble(driver.findElement(By.xpath("//*[@id=\"search-results\"]/li["+ i +"]//div//span[2]//span")).getText().trim().substring(1));				
 					int PriceIntValue = (int) Math.round(Price);
 					System.out.println("Price at position " + i + " is " + PriceIntValue);
 					list.add(PriceIntValue);
@@ -127,7 +128,7 @@ public class HousingPage
 				Boolean TrueOrFalse = Ordering.natural().isOrdered(list);
 				if(TrueOrFalse)
 				{
-					System.out.println("Low To High is true. Prices are ordered in Low to High order Ascending order");
+					System.out.println("Low To High is true. Prices are ordered in Ascending / Low to High order ****PASSED****");
 				}
 				else 
 				{
@@ -142,7 +143,8 @@ public class HousingPage
 				List<Integer> list=new ArrayList<Integer>();
 				for(int i = 1; i<=Total; i++) 
 				{
-					double Price = Double.parseDouble(driver.findElement(By.xpath("//*[@id=\"search-results\"]/li["+ i +"]/a/div[1]/div/div[1]/img//parent::div//parent::div//parent::div//parent::a//span")).getText().trim().substring(1));
+					//double Price = Double.parseDouble(driver.findElement(By.xpath("//*[@id=\"search-results\"]/li["+ i +"]/a/div[1]/div/div[1]/img//parent::div//parent::div//parent::div//parent::a//span")).getText().trim().substring(1));
+					double Price = Double.parseDouble(driver.findElement(By.xpath("//*[@id=\"search-results\"]/li["+ i +"]//div//span[2]//span")).getText().trim().substring(1));
 					int PriceIntValue = (int) Math.round(Price);
 					System.out.println("Price at position " + i + " is " + PriceIntValue);
 					list.add(PriceIntValue);
@@ -152,7 +154,7 @@ public class HousingPage
 				
 				if(TrueOrFalse)
 				{
-					System.out.println("High to Low is True. Prices are ordered in Descending/ High to Low order");
+					System.out.println("High to Low is True. Prices are ordered in Descending/ High to Low order ****PASSED****");
 				}
 				else {
 					System.out.println("High to Low is False. Prices are not ordered in Descending/ High to Low order******FAILED****");

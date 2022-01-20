@@ -74,7 +74,7 @@ public class CommonMethods {
 			System.out.println(textActual);
 			if (textActual.equalsIgnoreCase(TextToCheck))
 			{
-				log.info(TextToCheck + " is present on the screen");
+				log.info(TextToCheck + " is present on the screen ****PASSED****");
 			}	
 			
 			Assert.assertEquals(textActual,TextToCheck);
